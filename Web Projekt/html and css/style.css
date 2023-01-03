@@ -1,0 +1,198 @@
+/* Зображення */
+#full img{
+    width: 101.5%;
+    margin: -20px;
+    display: block;
+
+}
+/* про містечко */
+.pro p {
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* текст  */
+.text1{
+    font-size: 25px;
+    text-align: center;
+}
+
+.ld_text{
+
+    font-family: sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+    transition: all 1s;
+    margin-top: -100px;
+}
+
+/* Кнопки меню */
+
+ul {
+  list-style: none; 
+
+}
+a {
+  text-decoration: none;
+  font-family: 'Lora', serif;
+}
+
+i {
+  margin-right: 10px;
+}
+nav {
+  text-align: center;
+  display: block;
+  width: 480px;
+  position: absolute;
+  margin-top: 350px;
+  margin-left: 490px;
+
+}
+
+.menu a {
+  padding: 1em;
+  color: white;
+}
+
+.menu li {
+  display: inline;
+}
+
+/* легенда  */
+
+.legenda p {
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.legend_text{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-weight: inherit;
+    
+}
+
+.gerb {
+    margin-left: 60px;
+    margin-right: 10px;
+    margin-top: -90px;
+
+}
+
+.aparat p{
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.golova p{
+     margin-left: 430px;
+}
+
+.osvita{
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.licey{
+    font-size: 22px;
+    text-align: center;
+    font-weight: 900;
+    font-weight: inherit;
+}
+
+.gimn{
+    font-family: monospace;
+    color: black;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#gimn_au{
+    text-align: center;
+    font-size: 18px;
+}
+
+.pisna{
+    margin-left: 220px;
+    font-size: 17px;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 3px;
+}
+
+#myBtn {
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-right: 300px;
+
+}
+
+
+/* Адаптація */
+
+@media only screen and (max-width: 1200px){
+
+
+}
+
+@media only screen and (max-width: 992px){
+    
+}
+
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 480px){
+    
+}
+
+@media only screen and (max-width: 320px){
+    
+}
